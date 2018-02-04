@@ -1,0 +1,23 @@
+
+.mainContainer{
+    text-align: center;
+}
+.mainText{
+    text-align: center;
+    padding-top: 25px;
+}
+.mainDestiny{
+    padding-bottom: 8px;
+}
+.typeText{
+    width: 4%;
+}
+.labelText{
+    margin-top: 18px;
+}
+.buttonCalculate{
+    margin-top: 15px;
+}
+.finalDistance{
+    padding: 15px;
+}
