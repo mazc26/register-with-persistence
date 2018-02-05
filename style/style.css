@@ -1,23 +1,87 @@
 
-.mainContainer{
+
+.mainTitle{
+    color: #5178CA;
     text-align: center;
-}
-.mainText{
-    text-align: center;
-    padding-top: 25px;
-}
-.mainDestiny{
-    padding-bottom: 8px;
-}
-.typeText{
-    width: 4%;
-}
-.labelText{
-    margin-top: 18px;
-}
-.buttonCalculate{
+    font-size: 20px;
+    font-weight: bold;
     margin-top: 15px;
 }
-.finalDistance{
-    padding: 15px;
+
+.mainAppContainer{
+    margin: 0 auto;
+}
+
+.myName{
+    text-align: right;
+    color: #5178CA;
+    font-weight: bold;
+}
+
+.mainFormContainer{
+   display: inline-block;
+   width: 100%;
+}
+
+.mainTable{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #5178CA;
+}
+.inputType{
+    width: 50%;
+    padding-left:5px;
+}
+
+.saveBtn{
+    float: right;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 45%;
+    text-align: right;
+    padding-right: 20px;
+    color: #5178CA;
+}
+input {
+  display: inline-block;
+  float: left;
+  color: #5178CA;
+  border: 2px solid #5178CA
+}
+
+.saveBtn{
+    border: 1px solid #5178CA;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: #5178CA;
+    margin-top: 38px;
+    margin-right: 5%;
+}
+
+.selectType{
+    margin-top: 4px;
+    height: 28px;
+    background: white;
+    border: 2px solid #5178CA;
+}
+
+.mainAppContainer{
+    display: inline-flex;
+}
+
+.welcomeText{
+   background-color: #def1d7;
+   background-color: #def1d7;
+   width: 95%;
+   text-align: left;
+   padding: 10px;
+   margin-top: 25px;
+}
+
+.userNameMessage{
+    cursor: pointer;
 }

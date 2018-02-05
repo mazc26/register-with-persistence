@@ -1,11 +1,11 @@
 import * as redux from "redux";
 import thunk from "redux-thunk";
 // Import reducers here
-import { CalculateDistance } from "../ducks/calculate";
+import { GetCountries } from "../ducks/select-data";
 
 export const configure = (initialState = {}) => {
   const reducer = redux.combineReducers({
-    calculate: CalculateDistance,
+    countries: GetCountries,
   }); // Combine reducers here
 
   const store = redux.createStore(
@@ -16,5 +16,6 @@ export const configure = (initialState = {}) => {
       window.devToolsExtension ? window.devToolsExtension() : f => f
     )
   );
+
     return store;
 };
